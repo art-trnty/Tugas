@@ -14,7 +14,7 @@ const tourPackages = [
     {
         title: "New Zealand",
         description: "Enjoy the cool scenery and beautiful buildings for 7 days 6 nights.",
-        price: "IDR 25,000,000",
+        price: "IDR 28,000,000",
         image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/fiordland-national-park-new-zealand-pixabay.jpg"
     }
 ];
