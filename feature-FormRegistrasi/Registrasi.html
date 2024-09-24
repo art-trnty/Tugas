@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Your Tour Package</title>
+    <link rel="stylesheet" href="styleRegistrasi.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Book Your Tour Package</h1>
+          <hr />
+          <form id="bookingForm">
+            <div class="form-group">
+              <label for="packageName">Select Package:</label>
+              <select id="packageName" class="form-control">
+                <option value="">Select Package</option>
+                <option value="Package 1">Package 1</option>
+                <option value="Package 2">Package 2</option>
+                <option value="Package 3">Package 3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="packageType">Package Type:</label>
+              <select id="packageType" class="form-control">
+                <option value="">Select Package Type</option>
+                <option value="Standard">Standard</option>
+                <option value="Deluxe">Deluxe</option>
+                <option value="Premium">Premium</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="duration">Duration:</label>
+              <input
+                type="number"
+                id="duration"
+                class="form-control"
+                placeholder="Enter duration in days"
+              />
+            </div>
+            <div class="form-group">
+              <label for="price">Price:</label>
+              <input
+                type="number"
+                id="price"
+                class="form-control"
+                placeholder="Enter price"
+              />
+            </div>
+            <div class="form-group">
+              <label for="travelerName">Traveler Name:</label>
+              <input
+                type="text"
+                id="travelerName"
+                class="form-control"
+                placeholder="Enter traveler name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="travelerEmail">Traveler Email:</label>
+              <input
+                type="email"
+                id="travelerEmail"
+                class="form-control"
+                placeholder="Enter traveler email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="travelerPhone">Traveler Phone:</label>
+              <input
+                type="tel"
+                id="travelerPhone"
+                class="form-control"
+                placeholder="Enter traveler phone"
+              />
+            </div>
+            <button class="btn btn-primary" id="bookButton">Book Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="styleRegistrasi.js"></script>
+  </body>
+</html>
