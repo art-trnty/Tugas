@@ -1,0 +1,50 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Confirmation</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="HalamanDetail.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Booking Confirmation</h1>
+          <img
+            src="https://images2.alphacoders.com/734/734981.jpg"
+            alt="Package Image"
+            class="package-image"
+          />
+          <hr />
+          <div class="booking-details">
+            <h2>Package Details</h2>
+            <p>
+              <strong>Package Name :</strong> <span id="packageName"></span>
+            </p>
+            <p>
+              <strong>Package Type :</strong> <span id="packageType"></span>
+            </p>
+            <p><strong>Duration :</strong> <span id="duration"></span></p>
+            <p><strong>Price :</strong> <span id="price"></span></p>
+            <h2>Traveler Details</h2>
+            <p><strong>Name :</strong> <span id="travelerName"></span></p>
+            <p><strong>Email:</strong> <span id="travelerEmail"></span></p>
+            <p><strong>Phone:</strong> <span id="travelerPhone"></span></p>
+          </div>
+          <button class="btn btn-primary" id="printButton">
+            Print Confirmation
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="HalamanDetail.js"></script>
+  </body>
+</html>
